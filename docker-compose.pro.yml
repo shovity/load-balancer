@@ -2,4 +2,6 @@ version: '3.7'
 
 services:
   load-balancer:
+    volumes:
+      - ./log:/var/log/nginx
   
